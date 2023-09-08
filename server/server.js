@@ -11,7 +11,7 @@ const compression = require("compression");
 const exampleRoute = require("./routes/exampleRoute");
 
 const app = express();
-const port = 3000;
+const port = 5000;
 
 const connect_database = async () => {
   try {
